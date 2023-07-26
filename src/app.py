@@ -107,7 +107,7 @@ app.layout = dbc.Container(
             ]
         ),
         dcc.Store(id="storage", storage_type="session", data={}),
-        dcc.Interval(id="timer", interval=1000 * 20, n_intervals=0),
+        dcc.Interval(id="timer", interval=1000 * 60, n_intervals=0),
     ]
 )
 
